@@ -1,6 +1,6 @@
-**Project Title:** Bitcoin Price Predictor
+## **Project Title:** Bitcoin Price Predictor
 
-#### **Feature Selection Methodology**
+### **Feature Selection Methodology**
 
 Feature selection is a crucial step in the machine learning process, as it helps to identify the most relevant features to improve model performance and interpretability. In this project, the features were chosen based on domain knowledge, correlation analysis, and feature importance.
 
@@ -33,11 +33,11 @@ Using a Random Forest model, the importance of each feature was calculated. The 
 
 3. Model Evaluation: Models were evaluated using Mean Squared Error (MSE), Mean Absolute Error (MAE), and R² Score.  
 
-#### **Key Insights from Model Evaluation**
+### **Key Insights from Model Evaluation**
 
-#### After evaluating all the models and based on the plots below, the Linear Regression emerged as the best-performing model, achieving the highest R² score and lowest MSE and MAE. The Deep Learning model performed reasonably well but struggled to capture more complex patterns in the data. The Random Forest provided better results, especially for capturing non-linear relationships in the data
+After evaluating all the models and based on the plots in the code, the Linear Regression emerged as the best-performing model, achieving the highest R² score and lowest MSE and MAE. The Deep Learning model performed reasonably well but struggled to capture more complex patterns in the data. The Random Forest provided better results, especially for capturing non-linear relationships in the data
 
-#### **Limitations**
+### **Limitations**
 
 1. Overfitting: The Random Forest model showed signs of overfitting, as it performed well on training data but not as well on testing data.  
 
@@ -45,7 +45,7 @@ Using a Random Forest model, the importance of each feature was calculated. The 
 
 3. Feature Limitations: While Open, High, Low, and Log Volume were selected as features, additional external data (e.g., market sentiment, economic factors) might improve prediction accuracy.  
 
-#### **Challenges Faced During Implementation**
+### **Challenges Faced During Implementation**
 
 1. Data Preprocessing: The need to handle missing data, scaling the features, and ensuring the model wasn't biased due to outliers.  
 
@@ -55,7 +55,7 @@ Using a Random Forest model, the importance of each feature was calculated. The 
 
 4. Overfitting with Random Forest: Random Forest models tend to overfit if hyperparameters like max_depth and n_estimators are not tuned properly.
 
-#### **Predictive Use Case for Bitcoin Price Prediction**
+### **Predictive Use Case for Bitcoin Price Prediction**
 
 This project could be applied in the real world for predicting Bitcoin's future price, which has several potential use cases in the financial sector:
 
@@ -67,7 +67,7 @@ This project could be applied in the real world for predicting Bitcoin's future 
 
 4. Cryptocurrency Portfolio Optimization: The model could help investors balance their portfolios by predicting future price trends and adjusting their holdings accordingly.  
 
-#### **Challenges in Real-World Implementation**
+### **Challenges in Real-World Implementation**
 
 - Market Volatility: Bitcoin's market is highly volatile, and external factors (e.g., government regulations, market sentiment) are not included in this model. Therefore, while the model can help with price predictions, it may not be highly accurate in times of extreme market shifts.  
 
